@@ -82,50 +82,100 @@ int main() {
 		}
 	}*/
 
-	int length{}, width{}, height{};
-	double base_cost{ 2.50 };
+	//int length{}, width{}, height{};
+	//double base_cost{ 2.50 };
 
-	const int tier1_threshold{ 100 };
-	const int tier2_theshold{ 500 };
+	//const int tier1_threshold{ 100 };
+	//const int tier2_theshold{ 500 };
 
-	int max_dimension_length{ 10 };
+	//int max_dimension_length{ 10 };
 
-	double tier1_surcharge{ 0.10 };
-	double tier2_surcharge{ 0.25 };
+	//double tier1_surcharge{ 0.10 };
+	//double tier2_surcharge{ 0.25 };
 
-	int package_volume{};
+	//int package_volume{};
 
-	cout << "Welcome to the package cost calculator" << endl;
-	cout << "Enter length, width, and height of the package seperated by spaces: ";
-	cin >> length >> width >> height;
+	//cout << "Welcome to the package cost calculator" << endl;
+	//cout << "Enter length, width, and height of the package seperated by spaces: ";
+	//cin >> length >> width >> height;
 
-	if (length > max_dimension_length || width > max_dimension_length || height > max_dimension_length){
-		cout << "Sorry package rejected - dimesion exceeded" << endl;
+	//if (length > max_dimension_length || width > max_dimension_length || height > max_dimension_length){
+	//	cout << "Sorry package rejected - dimesion exceeded" << endl;
+	//}
+	//else {
+	//	double package_cost{};
+	//	package_volume = length * width* height;
+	//	package_cost = base_cost;
+
+	//	if (package_volume > tier2_theshold) {
+	//		package_cost += package_cost * tier2_surcharge;
+	//		cout << " adding tier 2 surcharge\n";
+	//	}
+	//	else if (package_volume > tier1_threshold) {
+	//		package_cost += package_cost * tier1_surcharge;
+	//		cout << " adding tier 1 surcharge\n";
+	//	}
+	//	cout << "The volume of your package is: " << package_volume << endl;
+	//	cout << "Your package will cost $" << package_cost << " to ship \n";
+	//}
+
+	/*char letter_grade{};
+
+	cout << "Enter the letter grade you expect on the exam: ";
+	cin >> letter_grade;
+
+	switch (letter_grade) {
+	case'a':
+	case'A':
+		cout << "You need a 90 or above, study hard!\n";
+		break;
+	case 'b':
+	case 'B':
+		cout << "You need 80 - 89 for a B, go study \n";
+		break;
+	case 'c':
+	case 'C':
+		cout << "You need a 70 - 79 for an average grade\n";
+		break;
+	case 'd':
+	case'D':
+		cout << "Hmm, you should strive for a better grade. All you need is 60 - 69\n";
+		break;
+	case 'f':
+	case'F':
+	{
+		char confirm{};
+		cout << "Are you sure (Y/N)?";
+		cin >> confirm;
+		if (confirm == 'y' || confirm == 'Y')
+			cout << "Ok, I guess you didn't study...\n";
+		else if (confirm == 'n' || confirm == 'N')
+			cout << "Good- go study!\n";
+		else
+			cout << "WRONG CHOICE!!!\n";
+		break;
 	}
-	else {
-		double package_cost{};
-		package_volume = length * width* height;
-		package_cost = base_cost;
+		
+	default:
+		cout << "Sorry that is not a vaild grade.";
+	}*/
 
-		if (package_volume > tier2_theshold) {
-			package_cost += package_cost * tier2_surcharge;
-			cout << " adding tier 2 surcharge\n";
-		}
-		else if (package_volume > tier1_threshold) {
-			package_cost += package_cost * tier1_surcharge;
-			cout << " adding tier 1 surcharge\n";
-		}
-		cout << "The volume of your package is: " << package_volume << endl;
-		cout << "Your package will cost $" << package_cost << " to ship \n";
-	}
+	/*enum Direction {
+		left, right, up, down
+		};
 
+	Direction heading{ left };
 
-
-
-
-
-
-
+	switch (heading) {
+	case left:
+		cout << "Going left" << endl;
+		break;
+	case right:
+		cout << "Going right" << endl;
+		break;
+	default:
+		cout << "Ok\n";
+	}*/
 
 
 	cout << endl;
