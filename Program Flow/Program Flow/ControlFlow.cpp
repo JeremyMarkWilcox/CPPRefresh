@@ -219,66 +219,162 @@ int main() {
 		cout << i << endl;
 	}*/
 
-//for (int i{ 1 }, j{ 5 }; i <= 5; ++i, ++j)
-//cout << i << " + " << j << " = " << (i + j) << endl;
+	//for (int i{ 1 }, j{ 5 }; i <= 5; ++i, ++j)
+	//cout << i << " + " << j << " = " << (i + j) << endl;
 
-//for (int i{ 1 }; i <= 100; ++i) {
-//	cout << i;
-//	if (i % 10 == 0) 
-//		cout << endl;
-//	else 
-//		cout << " ";
-//}
+	//for (int i{ 1 }; i <= 100; ++i) {
+	//	cout << i;
+	//	if (i % 10 == 0) 
+	//		cout << endl;
+	//	else 
+	//		cout << " ";
+	//}
 
-//for (int i{ 1 }; i <= 100; ++i) {
-//	cout << i << ((i % 10 == 0) ? "\n" : " ");
-//}
+	//for (int i{ 1 }; i <= 100; ++i) {
+	//	cout << i << ((i % 10 == 0) ? "\n" : " ");
+	//}
 
-//vector<int> nums{ 10, 20, 30, 40, 50 };
-//for (unsigned i{ 0 }; i < nums.size(); ++i)
-//	cout << nums[i] << endl;
+	//vector<int> nums{ 10, 20, 30, 40, 50 };
+	//for (unsigned i{ 0 }; i < nums.size(); ++i)
+	//	cout << nums[i] << endl;
 
-/*int sum{ 0 };
-for (int i{ 1 }; i <= 15; i += 2) {
-	sum += i;
-}
-cout << sum;*/ // 64
+	/*int sum{ 0 };
+	for (int i{ 1 }; i <= 15; i += 2) {
+		sum += i;
+	}
+	cout << sum;*/ // 64
 
-//int scores[]{ 10, 20, 30 };
+	//int scores[]{ 10, 20, 30 };
+	//
+	//for (auto score : scores) 
+	//	cout << score << endl;
+
+	//vector<double> temperatures{ 87.9, 77.9, 80.0, 72.5 };
+	//double average_temp{};
+	//double total{};
+	//
+	//for (auto temp : temperatures)
+	//total += temp;
+	//
+	//if (temperatures.size() != 0)
+	//average_temp = total / temperatures.size();
+	//
+	//cout << fixed << setprecision(1);
+	//cout << "Average temperature is " << average_temp << endl;
+
+	//for (auto val : { 1, 2, 3, 4, 5 })
+	//cout << val << endl;
+
+	//for (auto c : "This is a test")
+	//if(c != ' ')
+	//cout << c;
+
+	//for (auto c : "This is a test")
+	//if (c == ' ')
+	//cout << "\t";
+	//else
+	//cout << c;
+
+	//int num{};
+	//cout << "Enter a positive integer - start the countdown :";
+	//cin >> num;
+	//while (num > 0){
+	//	cout << num << endl;
+	//	--num;
+	//}
+	//cout << "\nBlastoff!" << endl;
+
+	/*int num{};
+	cout << "Enter a positive integer to count up to:";
+	cin >> num;
+
+	int i{ 1 };
+	while (num >= i) {
+		cout << i << endl;
+		i++;
+	}*/
+
+	//int number{};
+
+	//cout << "Enter a positive integer less than 100: ";
+	//cin >> number;
+
+	//while (number >= 100) {
+	//	cout << "Enter an integer less than 100" << endl;
+	//	cin >> number;
+	//}
+
+	//cout << "\nThanks!" << endl;
+
+
+	//bool done{false};
+	//int number{ 0 };
+
+	//while (!done) {
+	//	cout << "Enter an integer between 1 and 5: " << endl;
+	//	cin >> number;
+	//	if (number <= 1 || number >= 5)
+	//		cout << "Out of range, try again\n";
+	//	else {
+	//		cout << "Thanks!" << endl;
+	//		done = true;
+	//	}
+	//}
+
+//char selection{};
+//do {
+//	cout << "\n--------------------------------\n";
+//	cout << "1. Do this \n";
+//	cout << "2. Do that \n";
+//	cout << "3. Do something else \n";
+//	cout << "Q. Quit \n";
+//	cout << "\n Enter yout selection: ";
+//	cin >> selection;
 //
-//for (auto score : scores) 
-//	cout << score << endl;
-
-//vector<double> temperatures{ 87.9, 77.9, 80.0, 72.5 };
-//double average_temp{};
-//double total{};
+//	if (selection == '1')
+//		cout << "You code 1 - doing this\n";
+//	else if (selection == '2')
+//		cout << "You chose 2 - doing that \n";
+//	else if (selection == '3')
+//		cout << "You chose 3 - doing something else \n";
+//	else if (selection == 'Q' || selection == 'q')
+//		cout << "Goodbye...\n";
+//	else
+//		cout << "Unknown option -- try again...";
 //
-//for (auto temp : temperatures)
-//total += temp;
-//
-//if (temperatures.size() != 0)
-//average_temp = total / temperatures.size();
-//
-//cout << fixed << setprecision(1);
-//cout << "Average temperature is " << average_temp << endl;
+//} while (selection != 'q' && selection != 'Q');
+//	
+	//
+	//for (int num1{ 1 }; num1 <= 10; ++num1) {
+	//	for (int num2{ 1 }; num2 <= 10; ++num2) {
+	//		cout << num1 << "*" << num2 << "=" << num1 * num2 << endl;
+	//	}
+	//	cout << "------------------------\n";
+	//}
 
-//for (auto val : { 1, 2, 3, 4, 5 })
-//cout << val << endl;
+	//int num_items{};
 
-//for (auto c : "This is a test")
-//if(c != ' ')
-//cout << c;
+	//cout << "How many data items do you have? ";
+	//cin >> num_items;
 
-//for (auto c : "This is a test")
-//if (c == ' ')
-//cout << "\t";
-//else
-//cout << c;
+	//vector<int> data{};
 
-	
-
-
-
+	//for (int i{ 1 }; i <= num_items; ++i) {
+	//	int data_item{};
+	//	cout << "Enter data item " << i << ": \n";
+	//	cin >> data_item;
+	//	data.push_back(data_item);
+	//}
+	//cout << "\nDisplaying Histogram\n";
+	//for (auto val : data) {
+	//	for (int i{ 1 }; i <= val; ++i) {
+	//		if (i % 5 == 0 || i == 1) // added the 1 just to see
+	//			cout << "*";
+	//		else
+	//			cout << "-";
+	//	}
+	//	cout << endl;
+	//}
 
 
 
