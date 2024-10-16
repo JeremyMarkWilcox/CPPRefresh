@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\CPPRefresh\\CPPStringsAndChars\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E80A37-AE93-4114-BCB6-004BF92A6D3F}|CPPStringsAndChars\\CPPStringsAndChars.vcxproj|C:\\Users\\Owner\\OneDrive\\Desktop\\CPPRefresh\\CPPStringsAndChars\\CPPStringsAndChars\\StingsAndChars.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0E80A37-AE93-4114-BCB6-004BF92A6D3F}|CPPStringsAndChars\\CPPStringsAndChars.vcxproj|solutionrelative:CPPStringsAndChars\\StingsAndChars.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StingsAndChars.cpp",
+              "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Desktop\\CPPRefresh\\CPPStringsAndChars\\CPPStringsAndChars\\StingsAndChars.cpp",
+              "RelativeDocumentMoniker": "CPPStringsAndChars\\StingsAndChars.cpp",
+              "ToolTip": "C:\\Users\\Owner\\OneDrive\\Desktop\\CPPRefresh\\CPPStringsAndChars\\CPPStringsAndChars\\StingsAndChars.cpp",
+              "RelativeToolTip": "CPPStringsAndChars\\StingsAndChars.cpp",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-16T13:18:05.142Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
