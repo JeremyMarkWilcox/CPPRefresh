@@ -1,0 +1,5 @@
+﻿  Functions3.cpp
+C:\Users\Owner\OneDrive\Desktop\CPPRefresh\Functions3\Functions3\Functions3.cpp(6,54): error C2572: 'calc_cost': redefinition of default argument: parameter 1
+      C:\Users\Owner\OneDrive\Desktop\CPPRefresh\Functions3\Functions3\Functions3.cpp(4,8):
+      see declaration of 'calc_cost'
+  
